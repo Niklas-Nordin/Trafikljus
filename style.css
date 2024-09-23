@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .form {
     width: 200px;
     height: 200px;
@@ -12,8 +17,8 @@
 .gul {
     background-color: yellow;
     border-color: rgb(172, 172, 8);
-    margin: 10px 0px;
     align-items: center;
+    margin: 10px 0px;
 }
 
 .grön {
@@ -23,9 +28,28 @@
 
 .container {
     background-color: white;
-    width: 280px;
+    width: 260px;
+    border: 10px solid white;
 }
 
-div, .röd, .gul, .grön {
-    padding: 10px;
+.ljusröd {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(245, 129, 129);
+    margin-top: 100px;
+}
+
+.ljusgul {
+    background-color: rgb(244, 244, 137);
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.ljusgrön{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(95, 163, 95);
+    margin-top: 100px;
 }
